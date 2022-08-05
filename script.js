@@ -11,5 +11,10 @@ $(function() {
   $("#hide-text").click(function(){
     $("#text").slideUp('slow');
   });
+
+  $("#change-text").click(function(){
+    $("#text-chenge").text("Hello World");
+  });
+
 });
 
