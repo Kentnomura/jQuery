@@ -8,5 +8,8 @@ $(function() {
       $(".language-text").fadeOut();
     }
   );
-  
+  $("#hide-text").click(function(){
+    $("#text").slideUp('slow');
+  });
 });
+
